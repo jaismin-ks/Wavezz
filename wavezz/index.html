@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=500, initial-scale=1" />
+
+    <!-- Change this to your name-->
+    <meta name="author" content="Jaismin Kaur" />
+
+    <title>BTI225 Music App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Michroma&family=Playfair+Display:wght@400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <canvas class="threejs"></canvas>
+
+      <main class="content">
+      <!-- Change this to your App's info -->
+       <img class="logo" src="static/wavezz-logo.png">
+      <p>where hip-hop lives and flows..</p>
+
+    <nav id="menu">
+      <!-- Dynamically create your menu category buttons here -->
+    </nav>
+
+    
+      <h2 id="selected-artist">
+        <!-- Dynamically update the selected category title -->
+      </h2>
+
+      <table>
+        <thead>
+          <!-- Statically create the headings for your table here -->
+          <tr>
+            <th>Song Title</th>
+            <th>Year Recorded</th>
+            <th>Duration (mm:ss)</th>
+          </tr>
+        </thead>
+        <tbody id="songs">
+          <!-- Dynamically create your product rows here -->
+        </tbody>
+      </table>
+    </main>
+    
+    <!-- JavaScript Data Files -->
+    <script src="artists.js"></script>
+    <script src="songs.js"></script>
+    <!-- Main App JavaScript File -->
+    <script src="app.js" defer></script>
+    <!--threejs file-->
+    <script type="module" src="script.js" defer></script>
+  </body>
+</html>
