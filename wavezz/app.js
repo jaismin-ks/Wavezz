@@ -1,15 +1,3 @@
-/********************************************************************************
- *  BTI225 – Assignment 04
- *
- *  I declare that this assignment is my own work in accordance with Seneca's
- *  Academic Integrity Policy:
- *
- *  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
- *
- *  Name: ______________________ Student ID: ______________ Date: ______________
- *
- ********************************************************************************/
-
 // All of our data is available on the global `window` object.
 // Create local variables to work with it in this file.
 const { artists, songs } = window;
